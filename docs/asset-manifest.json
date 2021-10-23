@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/DavehPino/StockSystemPP/tree/gh-pages/static/css/main.ce5059b4.chunk.css",
-    "main.js": "/DavehPino/StockSystemPP/tree/gh-pages/static/js/main.4779ab92.chunk.js",
-    "main.js.map": "/DavehPino/StockSystemPP/tree/gh-pages/static/js/main.4779ab92.chunk.js.map",
-    "runtime-main.js": "/DavehPino/StockSystemPP/tree/gh-pages/static/js/runtime-main.e3e3516e.js",
-    "runtime-main.js.map": "/DavehPino/StockSystemPP/tree/gh-pages/static/js/runtime-main.e3e3516e.js.map",
-    "static/css/2.c6f4166e.chunk.css": "/DavehPino/StockSystemPP/tree/gh-pages/static/css/2.c6f4166e.chunk.css",
-    "static/js/2.7dc975d3.chunk.js": "/DavehPino/StockSystemPP/tree/gh-pages/static/js/2.7dc975d3.chunk.js",
-    "static/js/2.7dc975d3.chunk.js.map": "/DavehPino/StockSystemPP/tree/gh-pages/static/js/2.7dc975d3.chunk.js.map",
-    "index.html": "/DavehPino/StockSystemPP/tree/gh-pages/index.html",
-    "static/css/2.c6f4166e.chunk.css.map": "/DavehPino/StockSystemPP/tree/gh-pages/static/css/2.c6f4166e.chunk.css.map",
-    "static/css/main.ce5059b4.chunk.css.map": "/DavehPino/StockSystemPP/tree/gh-pages/static/css/main.ce5059b4.chunk.css.map",
-    "static/js/2.7dc975d3.chunk.js.LICENSE.txt": "/DavehPino/StockSystemPP/tree/gh-pages/static/js/2.7dc975d3.chunk.js.LICENSE.txt"
+    "main.css": "/DavehPino/StockSystem/static/css/main.ce5059b4.chunk.css",
+    "main.js": "/DavehPino/StockSystem/static/js/main.4779ab92.chunk.js",
+    "main.js.map": "/DavehPino/StockSystem/static/js/main.4779ab92.chunk.js.map",
+    "runtime-main.js": "/DavehPino/StockSystem/static/js/runtime-main.6a0026d3.js",
+    "runtime-main.js.map": "/DavehPino/StockSystem/static/js/runtime-main.6a0026d3.js.map",
+    "static/css/2.c6f4166e.chunk.css": "/DavehPino/StockSystem/static/css/2.c6f4166e.chunk.css",
+    "static/js/2.307ce83a.chunk.js": "/DavehPino/StockSystem/static/js/2.307ce83a.chunk.js",
+    "static/js/2.307ce83a.chunk.js.map": "/DavehPino/StockSystem/static/js/2.307ce83a.chunk.js.map",
+    "index.html": "/DavehPino/StockSystem/index.html",
+    "static/css/2.c6f4166e.chunk.css.map": "/DavehPino/StockSystem/static/css/2.c6f4166e.chunk.css.map",
+    "static/css/main.ce5059b4.chunk.css.map": "/DavehPino/StockSystem/static/css/main.ce5059b4.chunk.css.map",
+    "static/js/2.307ce83a.chunk.js.LICENSE.txt": "/DavehPino/StockSystem/static/js/2.307ce83a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3e3516e.js",
+    "static/js/runtime-main.6a0026d3.js",
     "static/css/2.c6f4166e.chunk.css",
-    "static/js/2.7dc975d3.chunk.js",
+    "static/js/2.307ce83a.chunk.js",
     "static/css/main.ce5059b4.chunk.css",
     "static/js/main.4779ab92.chunk.js"
   ]
