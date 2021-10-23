@@ -24,5 +24,5 @@ const Layout = styled.div`
 
 const PageBody = styled.div`
   width: 100%;
-  height: 100%;
+  height: 88vh;
 `;

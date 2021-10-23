@@ -13,6 +13,6 @@ export const NavBar = (props) => {
 const StyledNavBar = styled.div`
   background-color: black;
   width: 100%;
-  height: 80px;
+  height: 12vh;
   border-bottom: solid white 2px;
 `;

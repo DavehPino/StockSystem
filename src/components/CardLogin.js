@@ -28,7 +28,7 @@ export const CardLogin = (props) => {
 
 const Card = styled.div`
   height: 70%;
-  width: 35%;
+  min-width: 35%;
   display: flex;
   flex-direction: column;
   justify-items: center;
