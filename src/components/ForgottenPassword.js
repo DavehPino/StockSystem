@@ -2,25 +2,33 @@ import React from "react";
 import styled from "styled-components";
 import classNames from "classnames";
 
-export const CardLogin = (props) => {
+export const ForgottenPassword = (props) => {
   return (
     <Card className={classNames(props.className)}>
       <header className="flex flex-col gap-5 justify-center">
-        <h1 className="mx-auto text-4xl font-bold">Iniciar Sesión</h1>
-        <p className="mx-auto font-semibold">Ingrese para continuar</p>
+        <img
+          alt="logo"
+          src="https://i.ibb.co/RSnN3tK/lockdown2.png"
+          className="h-16 w-11 self-center"
+        />
+        <h1 className="text-center mx-auto text-4xl  font-bold">
+          ¿Tienes problemas para entrar?
+        </h1>
+        <p className="text-center mx-auto font-semibold">
+          Introduce tu correo electrónico y te enviaremos un enlace para que
+          vuelvas a entrar a tu cuenta
+        </p>
       </header>
 
       <form className="flex justify-center  mt-5">
         <div className="flex flex-col w-4/5 md:w-1/2 gap-4">
           <Label>EMAIL</Label>
           <Input type="text"></Input>
-          <Label>CONTRASEÑA</Label>
-          <Input type="password"></Input>
           <button
             type="submit"
-            className="bg-gray-200 text-red-500 font-semibold px-10 py-2 mx-auto"
+            className="bg-gray-200 text-red-500 rounded-lg font-semibold px-10 py-2 mx-auto"
           >
-            Log In
+            Enviar enlace
           </button>
         </div>
       </form>
@@ -29,7 +37,7 @@ export const CardLogin = (props) => {
 };
 
 const Card = styled.div`
-  min-width: 35%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -37,7 +45,7 @@ const Card = styled.div`
 
 const Input = styled.input`
   padding: 8px 5px;
-  border-radius: 3px;
+  border-radius: 0.5rem;
   border: 1px solid black;
   background-color: #eee;
   outline: none;
