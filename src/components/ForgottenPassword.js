@@ -11,17 +11,17 @@ export const ForgottenPassword = (props) => {
           src="https://i.ibb.co/RSnN3tK/lockdown2.png"
           className="h-16 w-11 self-center"
         />
-        <h1 className="text-center mx-auto text-4xl  font-bold">
+        <h1 className="text-center mx-auto text-4xl sm:w-1/2 w-4/5 font-bold">
           ¿Tienes problemas para entrar?
         </h1>
-        <p className="text-center mx-auto font-semibold">
+        <p className="text-center mx-auto sm:w-1/2 w-4/5 font-semibold">
           Introduce tu correo electrónico y te enviaremos un enlace para que
           vuelvas a entrar a tu cuenta
         </p>
       </header>
 
-      <form className="flex justify-center  mt-5">
-        <div className="flex flex-col w-4/5 md:w-1/2 gap-4">
+      <form className="flex justify-center mt-8">
+        <div className="flex flex-col justify-center w-2/5 md:w-1/3 gap-4">
           <Label>EMAIL</Label>
           <Input type="text"></Input>
           <button
@@ -37,7 +37,7 @@ export const ForgottenPassword = (props) => {
 };
 
 const Card = styled.div`
-  width: 35%;
+  min-width: 10%;
   display: flex;
   flex-direction: column;
   justify-items: center;
