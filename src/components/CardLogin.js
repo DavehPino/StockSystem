@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import classNames from "classnames";
+import { useHistory } from "react-router";
 
 export const CardLogin = (props) => {
+  const [emailValue, setEmailValue] = useState("");
+  const [pwdValue, setPwdValue] = useState("");
+  const history = useHistory();
+  const handleEmailChange = (event) => {
+    setEmailValue(event.target.value);
+  };
+  const handlePwdChange = (event) => {
+    setPwdValue(event.target.value);
+  };
+  const onSubmit = () => {
+    if (emailValue == "Joan" && pwdValue == "123456") {
+      history.push("/menu");
+    }
+  };
   return (
     <Card className={classNames(props.className)}>
       <header className="flex flex-col gap-5 justify-center">
@@ -12,12 +27,22 @@ export const CardLogin = (props) => {
 
       <form className="flex justify-center  mt-5">
         <div className="flex flex-col w-4/5 md:w-1/2 gap-4">
-          <Label>EMAIL</Label>
-          <Input type="text"></Input>
+          <Label>USUARIO</Label>
+          <Input
+            value={emailValue}
+            onChange={handleEmailChange}
+            type="text"
+          ></Input>
           <Label>CONTRASEÑA</Label>
-          <Input type="password"></Input>
+          <Input
+            value={pwdValue}
+            onChange={handlePwdChange}
+            type="password"
+          ></Input>
           <button
+            disabled={!pwdValue || !emailValue}
             type="submit"
+            onClick={onSubmit}
             className="bg-gray-200 text-red-500 font-semibold px-10 py-2 mx-auto"
           >
             Log In

@@ -1,14 +1,23 @@
 import styled from "styled-components";
 import { HomeLayout } from "./pages/HomeLayout";
+import { ProductsPage } from "./pages/ProductsPage";
 import "tailwindcss/tailwind.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-function App() {
+
+
+const App = () => {
   return (
     <AppComponent>
-      <HomeLayout></HomeLayout>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={HomeLayout} />
+          <Route exact path="/menu" component={ProductsPage} />
+        </Switch>
+      </BrowserRouter>
     </AppComponent>
   );
-}
+};
 
 export default App;
 

@@ -22,7 +22,7 @@ export const HomeLayout = () => {
     }
   };
   return (
-    <Layout>
+    <>
       <NavBar className="flex flex-row-reverse items-center">
         <Logo className="mr-8" />
       </NavBar>
@@ -35,14 +35,9 @@ export const HomeLayout = () => {
           {buttonMessage}
         </button>
       </PageBody>
-    </Layout>
+    </>
   );
 };
-
-const Layout = styled.div`
-  width: 100%;
-  height: 100%;
-`;
 
 const PageBody = styled.div`
   width: 100%;
