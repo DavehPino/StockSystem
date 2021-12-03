@@ -8,7 +8,8 @@ export const TableList = ({ getId, list, colNames }) => {
     for (let i = 0; i <= 25; i++) {
       row = document.getElementById(i);
       if (row != null) {
-        if (i == id) {
+        let str = i.toString()
+        if (str === id) {
           row.style.backgroundColor = "grey";
         } else {
           row.style.backgroundColor = "rgb(236, 236, 236)";

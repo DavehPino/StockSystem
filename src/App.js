@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { HomeLayout } from "./pages/HomeLayout";
 import { ProductsPage } from "./pages/ProductsPage";
 import "tailwindcss/tailwind.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter as BrowserRouter, Route, Switch } from "react-router-dom";
 
 
 

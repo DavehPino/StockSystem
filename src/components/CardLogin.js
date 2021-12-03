@@ -14,7 +14,7 @@ export const CardLogin = (props) => {
     setPwdValue(event.target.value);
   };
   const onSubmit = () => {
-    if (emailValue == "Joan" && pwdValue == "123456") {
+    if (emailValue === "Joan" && pwdValue === "123456") {
       history.push("/menu");
     }
   };
