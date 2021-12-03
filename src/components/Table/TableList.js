@@ -5,11 +5,10 @@ export const TableList = ({ getId, list, colNames }) => {
   const rowClick = (id) => {
     getId(id);
     let row;
-    for (let i = 0; i <= 25; i++) {
+    for (let i = 0; i <= 50; i++) {
       row = document.getElementById(i);
       if (row != null) {
-        let str = i.toString()
-        if (str === id) {
+        if (i == id) {
           row.style.backgroundColor = "grey";
         } else {
           row.style.backgroundColor = "rgb(236, 236, 236)";
@@ -19,7 +18,7 @@ export const TableList = ({ getId, list, colNames }) => {
   };
   useEffect(() => {
     let row;
-    for(let i = 0; i <= 25; i++){
+    for(let i = 0; i <= 50; i++){
       row = document.getElementById(i)
       if (row != null){
         row.style.backgroundColor = "rgb(236, 236, 236)"
